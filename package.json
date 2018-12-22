@@ -16,8 +16,9 @@
   ],
   "author": "Quentin Aupetit <quentin.aupetit@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
+    "build": "webpack",
     "lint": "eslint ./components",
     "test": "mocha",
     "demo": "webpack-dev-server",
